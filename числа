@@ -1,0 +1,16 @@
+def twoNumbers():def fourDigitNubmer():
+    fourDigit = input("Введите четырезначное число: ")
+    summ = 0
+    difference = 0
+    if int(fourDigit)%3 == 0:
+        summ += int(fourDigit[0])
+        summ += int(fourDigit[1])
+        summ += int(fourDigit[2])
+        summ += int(fourDigit[3])
+        print(summ)
+    else:
+        difference -= int(fourDigit[0])
+        difference -= int(fourDigit[1])
+        difference -= int(fourDigit[2])
+        difference -= int(fourDigit[3])
+        print(difference)
