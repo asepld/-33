@@ -1,0 +1,4 @@
+def minValue():
+    a = int(input("Введите переменную a:"))
+    b = int(input("Введите переменную b:"))
+    c = int(input("Введите переменную c:"))
