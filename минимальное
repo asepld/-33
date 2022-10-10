@@ -1,4 +1,15 @@
-def minValue():
+def minValue():def minValue():
     a = int(input("Введите переменную a:"))
     b = int(input("Введите переменную b:"))
     c = int(input("Введите переменную c:"))
+
+
+
+    if a<b<c:
+        print("Минимально значение a: ", a)
+    elif b<a<c:
+        print("Минимально значение b: ", b)
+    elif c<a<b:
+        print("Минимально значение c: ", c)
+    else:
+        print("Неизвестная ошибка")
