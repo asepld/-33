@@ -1,0 +1,11 @@
+def negativeNumber():
+    a = int(input("Введите а: "))
+    b = int(input("Введтие b: "))
+    arithmeticMean = 0
+    geometricMean = 0
+    if a>0 and b>0:
+        arithmeticMean = (a+b)*2
+        print(arithmeticMean)
+    else:
+        geometricMean = a*b
+        print(geometricMean)
