@@ -1,0 +1,11 @@
+def twoNumbers():
+    a = int(input("Введите а: "))
+    b = int(input("Введтие b: "))
+    firstMeaning = 0
+    secondMeaning = 0
+    if a%3 == 0 and b%3 == 0:
+        firstMeaning = (a+b)/3
+        print(firstMeaning)
+    else:
+        secondMeaning = (a+b)*3
+        print(secondMeaning)
